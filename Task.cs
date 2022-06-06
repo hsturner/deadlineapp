@@ -49,20 +49,20 @@ namespace Task_object
     {
         public Task(string name, string duedate_toparse)
         {
-            lInfo.culture = CultureInfo.CreateSpecificCulture("en-US");
-            lInfo.styles = DateTimeStyles.None;
+            this.lInfo.culture = CultureInfo.CreateSpecificCulture("en-US");
+            this.lInfo.styles = DateTimeStyles.None;
 
-            Name = name;
+            this.Name = name;
 
-            if (DateTime.TryParse(duedate_toparse, lInfo.culture, lInfo.styles, out duedate)){Console.WriteLine("Successfully parsed due date from string");}
+            if (DateTime.TryParse(duedate_toparse, lInfo.culture, lInfo.styles, out this.duedate)){Console.WriteLine("Successfully parsed due date from string");}
             else 
             {
-                duedate = DateTime.Now;
+                this.duedate = DateTime.Now;
                 Console.WriteLine("Failed to parse date info from provided string, due date initialized to NOW!");
             }
             
-            assigned = DateTime.Now; //date assigned is assumed to to be the day the task is created
-            Completed = false;
+            this.assigned = DateTime.Now; //date assigned is assumed to to be the day the task is created
+            this.Completed = false;
 
         }//Task constructor
 
@@ -71,26 +71,26 @@ namespace Task_object
 
         public Task(string name, string duedate_toparse, string assinged_date)
         {
-            lInfo.culture = CultureInfo.CreateSpecificCulture("en-US");
-            lInfo.styles = DateTimeStyles.None;
+            this.lInfo.culture = CultureInfo.CreateSpecificCulture("en-US");
+            this.lInfo.styles = DateTimeStyles.None;
 
-            Name = name;
+            this.Name = name;
 
-            if (DateTime.TryParse(duedate_toparse, lInfo.culture, lInfo.styles, out duedate)) {Console.WriteLine("Successfully parsed due date from string");}
+            if (DateTime.TryParse(duedate_toparse, lInfo.culture, lInfo.styles, out this.duedate)) {Console.WriteLine("Successfully parsed due date from string");}
             else 
             {
-                duedate = DateTime.Now;
+                this.duedate = DateTime.Now;
                 Console.WriteLine("Failed to parse date info from provided string, due date initialized to NOW!");
             }
 
-            if(DateTime.TryParse(assinged_date,lInfo.culture,lInfo.styles, out assigned)) {Console.WriteLine("Successfully parsed assigned date from string");}
+            if(DateTime.TryParse(assinged_date,lInfo.culture,lInfo.styles, out this.assigned)) {Console.WriteLine("Successfully parsed assigned date from string");}
             else
             {
-                assigned = DateTime.Now;
+                this.assigned = DateTime.Now;
                 Console.WriteLine("Failed to parse assigned date from string, assigned date initialized to NOW!");
             }
 
-            Completed = false;
+            this.Completed = false;
 
         }//Overloaded Task constructor
 
