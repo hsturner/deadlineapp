@@ -1,0 +1,15 @@
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.csproj.AssemblyReference.cache
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.AssemblyInfoInputs.cache
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.AssemblyInfo.cs
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.csproj.CoreCompileInputs.cache
+C:\Users\Harlan Turner\projects\cs\deadlineapp\bin\Debug\net6.0\deadlineapp.exe
+C:\Users\Harlan Turner\projects\cs\deadlineapp\bin\Debug\net6.0\deadlineapp.deps.json
+C:\Users\Harlan Turner\projects\cs\deadlineapp\bin\Debug\net6.0\deadlineapp.runtimeconfig.json
+C:\Users\Harlan Turner\projects\cs\deadlineapp\bin\Debug\net6.0\deadlineapp.dll
+C:\Users\Harlan Turner\projects\cs\deadlineapp\bin\Debug\net6.0\deadlineapp.pdb
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.dll
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\refint\deadlineapp.dll
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.pdb
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\deadlineapp.genruntimeconfig.cache
+C:\Users\Harlan Turner\projects\cs\deadlineapp\obj\Debug\net6.0\ref\deadlineapp.dll
