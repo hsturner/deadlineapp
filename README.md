@@ -1,0 +1,1 @@
+Simple task tracking app for scheduling and sticking to deadlines. Each instance of the task class holds an assigned date, due date, and performs the calculation for days remaining to complete it. Time is calculated by parsing a DateTime object from string parameter passed to Task constructor.
