@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Harlan Turner\\projects\\cs\\deadlineapp\\deadlineapp.csproj": {}
+    "C:\\projects\\csProj\\deadlineapp\\deadlineapp\\deadlineapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Harlan Turner\\projects\\cs\\deadlineapp\\deadlineapp.csproj": {
+    "C:\\projects\\csProj\\deadlineapp\\deadlineapp\\deadlineapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Harlan Turner\\projects\\cs\\deadlineapp\\deadlineapp.csproj",
+        "projectUniqueName": "C:\\projects\\csProj\\deadlineapp\\deadlineapp\\deadlineapp.csproj",
         "projectName": "deadlineapp",
-        "projectPath": "C:\\Users\\Harlan Turner\\projects\\cs\\deadlineapp\\deadlineapp.csproj",
-        "packagesPath": "C:\\Users\\Harlan Turner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Harlan Turner\\projects\\cs\\deadlineapp\\obj\\",
+        "projectPath": "C:\\projects\\csProj\\deadlineapp\\deadlineapp\\deadlineapp.csproj",
+        "packagesPath": "C:\\Users\\Harlan\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\csProj\\deadlineapp\\deadlineapp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Harlan Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Harlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
