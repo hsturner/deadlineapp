@@ -120,6 +120,21 @@ namespace Task_object
             TimeSpan remaining = duedate.Subtract(DateTime.Now);
             return remaining;
         }
+
+        public void selfReport()
+        {
+            Console.WriteLine("Task name: {0}",this.Name);
+            Console.WriteLine("Date {0} was assigned: {1}",this.Name, this.Assigned());
+            Console.WriteLine("Date {0} is due: {1}",this.Name,this.Due());
+            if(this.Completed)
+            {
+                Console.WriteLine("Completed: {0}", this.Completed.ToString());
+            }
+            else
+            {
+                Console.WriteLine("Time remaining {0}: ", this.Remaining());
+            }
+        }
         
         
 
